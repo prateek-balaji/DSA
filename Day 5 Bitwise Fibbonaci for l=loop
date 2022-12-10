@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+int main(){
+  /*
+  cout<<"****----BITWISE OPERATORS EXAMPLES START------*****"<<endl<<endl<<endl;
+   int a=4;
+   int b=6;
+  cout<<" A AND B " << (a&b) <<endl;
+  cout<<" A or  B " << (a|b) <<endl;
+  cout<<" A not  " << ~a <<endl;
+  cout<<" A XOR B " << (a^b) <<endl;
+  cout<<" Left Shift of  (4<<2) "<<(a<<2)<<endl;
+  cout<<" Right Shift of (4>>2) "<<(a>>2)<<endl<<endl<<endl;
+
+  cout<<"****----BITWISE OPERATORS EXAMPLES END ------*****"<<endl<<endl<<endl;
+
+  cout<<"*********-----  HOW TO USE FOR LOOP ------- **********"<<endl<<endl;
+
+  
+  cout<<"(a++) a = "<<(a++)<<endl;
+  cout<<"Post increment Value = "<<a<<endl;
+  cout<<"(++a) a = "<<(++a)<<endl;
+  int n=10;
+  int i=1;
+  for(;;)
+    {
+      if(i<=n)
+      cout<<i<<endl;
+      
+      else{
+      break;
+        }
+      i++;
+    }
+  for(int p=1,q=2,r=4;p>=1&&q<=2&&r>3;p--,q--,r--)
+    {
+      cout<<p<<q<<r<<endl;
+    }
+  */
+  //fibbonaci series;
+  cout<<"*********------------FIBBONACi-------------*********";
+  int n=10;
+  int a=0;
+  int b=1;
+  int c=0;
+  cout<<0<<endl<<1<<endl;
+  for(int i=2;i<n;i++)
+    {
+      c=a+b;
+      a=b;
+      b=c;
+      cout<<b<<",";
+    }
+}
+  
+
+
+
+
+
