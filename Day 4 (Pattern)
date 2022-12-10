@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main(){
+ /* int row;
+  int column;
+  cin>>row;
+  cin>>column;
+  int i=1;
+  int j=1;
+  
+  while(j<=column)
+  {
+    while(i<=row){
+        cout<<" "<<i<<" ";
+        i++;
+      }
+    
+  cout<<endl;
+  j++;
+  i=1;
+  }
+  */
+  int n;
+  cin>>n;
+  int i=1;
+  int j=1;
+  int count=1;
+  while(i<=n)
+    {
+      while(j<=n)
+        {
+          cout<<" " <<count<<" ";
+          j++;
+          count++;
+          }
+      cout<<endl;
+    i++;
+    j=1;
+        
+    }
+    
+    
+    
+  
+}
+  
+
+
+
+
+
