@@ -1,0 +1,28 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+    int arr[]=new int[2];
+    int a=0;
+    int n=nums.length;
+    for(int i=0;i<(n-1);i++)
+    {
+        for(int j=i+1;j<n;j++)
+        {
+            /*System.out.println(i);
+            System.out.println(j);
+*/
+            a=nums[i]+nums[j];
+            
+            if(a==target)
+            {
+                arr[0]=i;
+                arr[1]=j;
+                break;
+                
+            }
+            else
+            continue;
+        }
+    }
+    return arr;
+    }
+}
